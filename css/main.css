@@ -1,0 +1,70 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size:15px;
+}
+/*global*/
+.green{
+    color:#2e2;
+}
+.pink{
+    color:#ff1261;
+}
+.light{
+   color:#12ffe3;
+}
+.yellow{
+    color:#f0e038;
+}
+/*end of global*/
+
+/*filler styling*/
+#filler{
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.9)) ,url(../img/carousel1.jpg)center/cover no-repeat fixed;
+    min-height:50vh;
+}
+/*end of filler styling*/
+
+/*carousel styling*/
+.first{
+    height:300px;
+    box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+/*end of carousel styling*/
+
+/*showcase styling*/
+.title-underline{
+    width: 150px;
+    height:7px;
+    margin: 0 auto;
+}
+.footer-underline{
+   border-bottom:1px solid grey;
+}
+#move{
+    position:relative;
+    animation: mymove 1.5s ease-out;
+}
+@keyframes mymove{
+    from {left: -1000px;}
+    to {left: 10px;}
+}
+
+#move-1{
+    position:relative;
+    animation: mymove 3s ease-out;
+}
+@keyframes mymove{
+    from {left: -3000px;}
+    to {left: 10px;}
+}
+/*end of showcase styling*/
+/*whatsapp styling*/
+#whatsapp{
+    margin-top:-100px;
+    position:fixed;
+}
+/*pre-contact styling*/
+#pre{
+    background-color:#e2dbdb;
+    box-shadow:0 0 5px rgba(0,0,0,.5);
+}
